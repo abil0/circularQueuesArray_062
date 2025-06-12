@@ -34,7 +34,7 @@ public:
                     REAR  = 0;
                 }
                 else
-                    {
+                {
                if (REAR == max -1)
                    REAR = 0;
 
@@ -42,10 +42,26 @@ public:
                    REAR = REAR +1;
                
                 }
-               
-               
-               
-       }
+                queue_array[REAR] = num;
+     void remove()
+        {
+        if (FRONT == -1)
+        {
+            cout << "queue underflow\n";
+            return;
+        }
+        cout <<  "\nThe element deleted from the queue is :" << queue_array
+        [FRONT] << "\n";
+
+
+        if ()
+        {
+            /* code */
+        }
+        
+        
+        }
+    }
 
 
 }
