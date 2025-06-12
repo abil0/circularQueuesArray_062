@@ -20,11 +20,23 @@ public:
                cout << "Enter a number :" ;
                cin >> num;
                cout << endl;
-
+//step 1
                if ((FRONT == 0 && REAR == max -1) || (FRONT == REAR +1))
                {
-                /* code */
+                cout << "\nQueue overflow\n"; 
+                return;
                }
+
+//step 2
+                if (FRONT == -1)
+                {
+                    FRONT = 0;
+                    REAR  = 0;
+                }
+                else
+            
+               
+               
                
        }
 
