@@ -43,6 +43,7 @@ public:
                
                 }
                 queue_array[REAR] = num;
+            }
      void remove()
         {
         if (FRONT == -1)
@@ -54,16 +55,23 @@ public:
         [FRONT] << "\n";
 
 
-        if ()
+        if (FRONT == REAR)
         {
-            /* code */
+            FRONT = -1;
+            REAR  = -1;
+        }
+        else
+        {
+          if (FRONT == max -1)
+              FRONT = 0;
+          else
+             FRONT = FRONT +1;
         }
         
-        
-        }
-    }
-
-
+      }
 }
+
+
+
 
 
