@@ -8,7 +8,11 @@ private:
        int FRONT, REAR;
        int queue_array[5];
 
-
+public:
+       queues()
+       {
+        
+       }
 }
 
 
