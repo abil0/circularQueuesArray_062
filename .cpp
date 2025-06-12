@@ -149,17 +149,18 @@ int main()
             default:
             {
                 cout << "invalid option!!" << endl;
+                break;
             }
             }
         }
-        catch(const std::exception& e)
+        catch(exception& e)
         {
-           
+           cout << "check for the value entered " << endl;
         }
         
     }
     
-}
+};
 
 
 
