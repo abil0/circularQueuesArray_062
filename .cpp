@@ -67,8 +67,29 @@ public:
           else
              FRONT = FRONT +1;
         }
+    }
+    void display()
+    {
+        int FRONT_position = FRONT;
+        int REAR_position  = REAR;
+
+
+        if (FRONT == -1)
+        {
+           cout << "queue is empty\n";
+           return;
+        }
+        cout << "\nElements in the queue are ....\n";
+
+        if (FRONT_position <= REAR_position)
+        {
+           cout << queue_array[FRONT_position] << "   ";
+           FRONT_position++;
+        }
+        cout << endl;
         
-      }
+        
+    }
 }
 
 
